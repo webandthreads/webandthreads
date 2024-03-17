@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useCallback } from "react";
 import Particles from "react-particles";
 import { motion } from "framer-motion";
+import { FaEnvelope, FaWhatsapp } from "react-icons/fa6";
 
 import { loadSlim } from "tsparticles-slim";
 
@@ -177,18 +178,13 @@ export default function Home() {
               />
               <Project
                 title="Eaze fabric"
-                description="A portfolio website for a company to showcase their work."
+                description="An ecommerce marketplace for buying and selling African fabric products and accessories."
                 image="/eaze.png"
               />
               <Project
-                title="Ecommerce"
-                description="An ecommerce website for a company to sell their products."
+                title="Hajila Movement"
+                description="Another fashion inspired project that exhibits Hajila creations and the movement it has turned out to be."
                 image="/bills.jpeg"
-              />
-              <Project
-                title="Portfolio"
-                description="A portfolio website for a company to showcase their work."
-                image="/bghd.jpeg"
               />
             </motion.div>
           </div>
@@ -202,10 +198,10 @@ export default function Home() {
             </p>
             <p>&nbsp;</p>
             <p>
-              business@webandstacks.com
+              <FaEnvelope style={{ display: 'inline', fontSize: 12 }} />&nbsp;&nbsp;business@webandstacks.com
             </p>
             <p>
-              +263 78 970 1984
+              <FaWhatsapp style={{ display: 'inline', fontSize: 12 }} />&nbsp;&nbsp;+263 78 970 1984
             </p>
           </div>
         </div>
