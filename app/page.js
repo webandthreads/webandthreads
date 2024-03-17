@@ -5,6 +5,7 @@ import { useCallback } from "react";
 import Particles from "react-particles";
 import { motion } from "framer-motion";
 import { FaEnvelope, FaWhatsapp } from "react-icons/fa6";
+import moment from 'moment';
 
 import { loadSlim } from "tsparticles-slim";
 
@@ -202,6 +203,10 @@ export default function Home() {
             </p>
             <p>
               <FaWhatsapp style={{ display: 'inline', fontSize: 12 }} />&nbsp;&nbsp;+263 78 970 1984
+            </p>
+            <p>&nbsp;</p>
+            <p>
+              © {moment().format('YYYY')} Web and stacks
             </p>
           </div>
         </div>
