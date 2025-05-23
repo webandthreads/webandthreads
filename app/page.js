@@ -171,21 +171,21 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-10">
-            <motion.div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-5 mt-5">
+            <motion.div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-5 mt-5">
+               <a
+    href="https://flippintickets.com"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block w-full h-full">
               <Project
                 title="Flippin tickets"
-                description="An event amarketplace that is user friendly, customisable for multiple markets and ready to plug and play."
-                image="/flip.png"
-              />
+                description="FlippinTickets is a simple to use, fully integrated event marketplace for diverse markets. Sell tickets conveniently, manage vendors, lease venues, sell merchandise, manage sponsorships, support charity collections, and expand outreach via affiliate marketing all in one powerful platform.."
+                image="/flipm.png"
+              /></a>
               <Project
-                title="Eaze fabric"
-                description="An ecommerce marketplace for buying and selling African fabric products and accessories."
-                image="/eaze.png"
-              />
-              <Project
-                title="Hajila Movement"
-                description="Another fashion inspired project that exhibits Hajila creations and the movement it has turned out to be."
-                image="/bills.jpeg"
+                title="FlipMarket"
+                description="FlipMarket is a one-stop shop where buyers and sellers can easily connect on everything from electronics and fashion to local art and unique finds. FlipMarket makes it easy to list, find, and trade nearly anything, whether you're looking for special deals, starting a home business, or organizing your closet."
+                image="/mkt.png"
               />
             </motion.div>
           </div>
@@ -206,10 +206,10 @@ export default function Home() {
             </p>
             <p>&nbsp;</p>
             <p>
-              © {moment().format('YYYY')} Web and stacks
+              © {moment().format('YYYY')} Web and Stacks
             </p>
           </div>
-        </div>
+        </div> 
       </div>
     </main>
   );
