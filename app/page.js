@@ -206,7 +206,7 @@ export default function Home() {
             </p>
             <p>&nbsp;</p>
             <p>
-              © {moment().format('YYYY')} Web and Stacks
+              © {moment().format('YYYY')} Web and stacks
             </p>
           </div>
         </div> 
